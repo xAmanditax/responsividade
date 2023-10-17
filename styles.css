@@ -1,0 +1,83 @@
+/* Estilos gerais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ header {
+    background-color:indianred;
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
+ h1{
+   font-family: 'Poppins', sans-serif;
+   font-size: 50px;
+   font-weight:bold;
+   text-shadow: 0.01em 0.06em 0.1em;
+ }
+ 
+ nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: indianred; 
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    padding-top: 30px;
+ }
+ 
+ nav ul li {
+    display: inline;
+    margin-right: 20px;
+ }
+ 
+ nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ 
+ main {
+   margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+ }
+ 
+ section {
+    margin: 20px;
+    border: 2px solid;
+    width: 50%;
+    border-radius: 20px 20px 20px 20px;
+ }
+ #cx1{
+   height: 400px;
+   background-color:rgb(57, 235, 226);
+ }
+ #cx2{
+   height: 300px;
+   background-color:lightpink;
+ }
+
+ #cx3{
+   height: 200px;
+   background-color: lightsalmon;
+ }
+
+ h2{
+   font-size: 30px;
+ }
+ p{
+   font-size: 17px;
+ }
+
+
+ 
+ /* Estilos responsivos */
+ @media screen and (max-width: 600px){}
